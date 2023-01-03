@@ -1,0 +1,29 @@
+{
+    "name": "HendraTest/LevartTest",
+    "type": "project",
+    "description": "Levart Teknologi Test Backend Developer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hendra Darisman",
+            "email": "hendradarisman34@gmail.com"
+        }
+    ],
+
+    "require": {
+        "bramus/router": "~1.5",
+        "phpmailer/phpmailer": "^6.2",
+        "predis/predis": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }        
+    }
+
+}

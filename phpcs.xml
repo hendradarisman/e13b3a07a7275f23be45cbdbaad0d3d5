@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="Levart Backend">
+    <rule ref="PSR2"/>
+</ruleset>
